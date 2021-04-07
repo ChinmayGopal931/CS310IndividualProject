@@ -1,9 +1,9 @@
 import requests, uuid, json
 
 # Add your subscription key and endpoint
-subscription_key = "5ba820376b9548ecb042e753ae2fc80f"
+subscription_key = "subkey"
 endpoint = "https://api.cognitive.microsofttranslator.com"
-location = "eastus"
+location = "location"
 
 # Add your location, also known as region. The default is global.
 # This is required if using a Cognitive Services resource.
