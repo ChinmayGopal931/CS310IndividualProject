@@ -7,8 +7,8 @@ import json
 import subprocess
 import tweepy
 
-auth = tweepy.OAuthHandler("8yjR2kRNfQJ2vacpu9P76plSt", "YCZ9JMR8kyAFyGjizGGMeWle4RhrnyyHy3shdFecf8cJaRz7wH")
-auth.set_access_token("1379398552430895105-xSB9aoZKZtnBNLBOvHZ941DMUowbWp", "lIL7bOAymECDFfeGz8wzynImnsu4hs1T8mRcDtxzoXlFd")
+auth = tweepy.OAuthHandler("code", "api key")
+auth.set_access_token("consumer key", "consumer secrect")
 api = tweepy.API(auth)
 # Define the window's contents
 sg.theme('Dark2')
