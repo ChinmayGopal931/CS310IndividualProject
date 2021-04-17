@@ -38,7 +38,7 @@ Afterwards, you may run the main.pyw file and the bot should work accordingly.
 
 ## New features
 
-Twitter functionality: Using the Tweepy library and Twitter's API recieved through my Twitter developer account I was able to add a "Tweet Conversation" button. The "Tweet Conversation" button I can instantly post a snippet of my converstion with the chat-bot. Due to twitter's tweet limit of 280 characters only a few lines of conversation can be posted. This feature is indented to allow users to post funny or informational moments from their conversation that might be memorable. After clicking the button Tweepy's library is used to post the tweet and am added message is added to the GUI.
+Twitter functionality: Using the Tweepy library and Twitter's API I was able to add a "Tweet Conversation" button. The "Tweet Conversation" button I can instantly post a snippet of my converstion with the chat-bot. Due to twitter's tweet limit of 280 characters only a few lines of conversation can be posted. This feature is indented to allow users to post funny or informational moments from their conversation that might be memorable. After clicking the button Tweepy's library is used to post the tweet and am added message is added to the GUI.
 
 
 Example:  
@@ -46,6 +46,8 @@ You: Presses Tweet Conversation Button
 Calm Bot: Solution: "Conversation Tweeted!"
 
 ~ It posted the tweet and informed the user using the GUI.
+
+Futher Documentation: The Twitter API provided by the company requires a custom developer account which can only be obtained through an application process. Consequently, this chat-bot would require a custom API key and account to be able to tweet directly through the GUI. I have taken the liberty to hide the API key in this project because the program would give anyone access to tweet from my developer account.
 
 Bing Translate API: Using the documentation and the API key from the Microsoft website I was able to seamlessly add multiple language support to the chat-bot. The API allows me to detect the current spoken langauge and translate it to english for the NLTK library to untilize. In addition the program retranslates the NLTK output back to the detected language from the users' convenience. The chat-bot performs language detection continually in the while loop so that the user can use multiple languages as they desire. The chat-bot informs the user when the language they have translated is not recognized by the Bing API. 
 
@@ -56,4 +58,6 @@ You: me odio a mí mismo
 Calm Bot: A veces todos necesitamos hablar sobre nuestros problemas.
 
 ~ It correctly recognized the changing languages and responded appropriately.
+
+Further Documentation: The Bing translate API provided by Microsoft requires a billed Azure account. For the purposes of this project I have opted to use the free API which allows for 2M API requests before Microsoft bills my account. Therefore I have also hidden the Azure API keys so that my account is protected.
 
