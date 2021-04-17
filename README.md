@@ -3,6 +3,7 @@
 This Project is a developed by Chinmay Gopal and is based on a chat-bot created by Sebi Unipan, Chinmay Gopal, Iwan Levin, Amritpal Aujla and Ali Ibrahim in a previous assignment.
 ## Description
 
+Link to Project - https://github.com/ChinmayGopal931/CS310IndividualProject
 This Project aims to implement additional features to an online chat-bot. More specifically, this chat-bot implements the Twitter API as well as the Bing translate API to allow additional functionality. 
 
 
