@@ -1,11 +1,10 @@
 # Final Project - An Interactive Conversational Agent with Added Features
 
-This Project is a developed by Chinmay Gopal and is based on a chat-bot created by Sebi Unipan, Chinmay Gopal, Iwan Levin, Amritpal Aujla and Ali Ibrahim.
+This Project is a developed by Chinmay Gopal and is based on a chat-bot created by Sebi Unipan, Chinmay Gopal, Iwan Levin, Amritpal Aujla and Ali Ibrahim in a previous assignment.
 ## Description
 
 This Project aims to implement additional features to an online chat-bot. More specifically, this chat-bot implements the Twitter API as well as the Bing translate API to allow additional functionality. 
 
-I truly believe that anonymous conversation with an intelligent chat-bot can aleviate mental stresses without the added expenses of a real psychiatrist.
 
 This project was was developed entirely in Python using the Natural Language Processing library, Natural Language Toolkit(NLTK) and the Tweepy Library.
 
@@ -14,7 +13,8 @@ The program is made up of two classes: chatbot and main
 
 >main class is where a chatbot object gets created and is run to extract quotes from file as  
 >well as running a loop to continuously ask the user for input with a loop in the class until  
->they enter an exit word  
+>they enter an exit word.
+>Both new features are directly implemented into main using their respective libraries.  
 
 ## Installation
 
@@ -45,7 +45,7 @@ Example:
 You: Presses Tweet Conversation Button  
 Calm Bot: Solution: "Conversation Tweeted!"
 
-It posted the tweet and informed the user using the GUI.
+~ It posted the tweet and informed the user using the GUI.
 
 Bing Translate API: Using the documentation and the API key from the Microsoft website I was able to seamlessly add multiple language support to the chat-bot. The API allows me to detect the current spoken langauge and translate it to english for the NLTK library to untilize. In addition the program retranslates the NLTK output back to the detected language from the users' convenience. The chat-bot performs language detection continually in the while loop so that the user can use multiple languages as they desire. The chat-bot informs the user when the language they have translated is not recognized by the Bing API. 
 
@@ -55,5 +55,5 @@ Calm Bot: Stress can sometimes be overwhelming, just know that you are not alone
 You: me odio a mí mismo
 Calm Bot: A veces todos necesitamos hablar sobre nuestros problemas.
 
-It correctly recognized the changing languages and responded appropriately.
+~ It correctly recognized the changing languages and responded appropriately.
 
